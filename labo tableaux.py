@@ -32,6 +32,16 @@ liste = ['emp', 'Etudiant2', 'Etudiant3', 'Etudiant4']
 if 'emp' in liste:
     print('existe')
 
+#* try except
+
+rep = True
+while rep == True:
+    try:
+        x=int(input('Entrez un nombre : '))
+        rep=False
+    except:
+        print ('erreur')
+
 
 
 
